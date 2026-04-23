@@ -19,7 +19,7 @@ from playwright.async_api import async_playwright, Page
 
 GREENAPI_INSTANCE = os.environ.get("GREENAPI_INSTANCE", "7107595331")
 GREENAPI_TOKEN    = os.environ.get("GREENAPI_TOKEN",    "8595fb6709ca44c69673d31784d40e50017e6cc9a78f41e9b0")
-WHATSAPP_PHONES   = ["972527924155"] #+ ["972526938256"]  # add more numbers as needed
+WHATSAPP_PHONES   = ["972527924155"] + ["972526938256"]  # add more numbers as needed
 WHATSAPP_ENABLED  = True  # set to False to disable sending (debug mode)
 
 # ─── SEARCH MODE ──────────────────────────────────────────────────────────────
