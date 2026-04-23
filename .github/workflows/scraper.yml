@@ -2,7 +2,7 @@ name: Yad2 Scraper
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # every 10 minutes
+    - cron: "*/20 * * * *"  # every 20 minutes
   workflow_dispatch:         # allow manual trigger from GitHub UI
 
 jobs:
